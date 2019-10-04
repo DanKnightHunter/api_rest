@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/ejemplo', 'MUsicaController@index');
+
+Route::get('/areas', 'AreasController@index');
